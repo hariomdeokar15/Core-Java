@@ -43,7 +43,7 @@ public class CopyofMethod {
 				//Search Method
 				
 				//It returns the index of element
-				System.out.println("Search Element :"+Arrays.binarySearch(arr3, 5));/*it showing out put as -1 if the code dose not contain element 5,
+				System.out.println("Search Element :"+Arrays.binarySearch(arr3, 	5));/*it showing out put as -1 if the code dose not contain element 5,
 																						but in this case as 5 is related to array [0, 10, 20, 30, 40] so 
 																						it will look for insertion point where the 5 element can feet between 0 and 10
 																						so it will return (insertion point)-1 = -2 as output */
@@ -98,6 +98,9 @@ public class CopyofMethod {
 				 
 				 List<Integer> integerArray = Arrays.stream(array1).boxed().collect(Collectors.toList());
 				 System.out.println(integerArray);
+				 //asAList is only work with wrapper class not work with primitive data type
+				 
+				 
 				 
 				  	
 
