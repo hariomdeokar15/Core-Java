@@ -30,6 +30,7 @@ public class Test1 {
 		p.show();
 		p.common();
 		
+		
 		Child c = new Child();
 		c.show();
 		c.common();
