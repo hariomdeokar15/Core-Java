@@ -31,6 +31,8 @@ public class Methods {
 		list.remove(Integer.valueOf(30));
 		System.out.println(list);
 		
+	    list.add(3, 10);		
+	    System.out.println(list);
 		LinkedList<String> slist = new LinkedList<>(Arrays.asList("Apple", "Mango", "orange", "Papaiya"));
 		
 		slist.remove("Apple");
